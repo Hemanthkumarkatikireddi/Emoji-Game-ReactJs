@@ -1,0 +1,31 @@
+/* Write your code here. */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.main-container {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom right,
+    #9796f0 0.6%,
+    #fbc7d4 150%
+  );
+}
+.emojisList-container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.content-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.emoji-box {
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
